@@ -1,0 +1,47 @@
+@import "_variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Niconne&display=swap");
+.main {
+  background-image: url("/img/bg.png");
+  width: 83vw;
+  height: max-content;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  .text {
+    .heading {
+      font-family: "Niconne", cursive;
+      font-size: 4rem;
+      color: $hed;
+      text-shadow: 0 0 7px $shadow, 0 0 10px $shadow, 0 0 21px $shadow,
+        0 0 42px $hed-shadow, 0 0 82px $hed-shadow, 0 0 92px $hed-shadow,
+        0 0 102px $hed-shadow, 0 0 151px $hed-shadow;
+    }
+    .desc {
+      font-size: 5rem;
+      width: 70%;
+      font-weight: bold;
+      color: $desc;
+      text-shadow: 0 0 7px $shadow, 0 0 10px $shadow, 0 0 21px $shadow,
+        0 0 42px $hed-shadow, 0 0 82px $hed-shadow, 0 0 92px $hed-shadow,
+        0 0 102px $hed-shadow, 0 0 151px $hed-shadow;
+      text-transform: uppercase;
+    }
+    .desc2 {
+      font-size: 2rem;
+      color: $desc;
+      text-shadow: 1px 1px $shadow;
+      text-transform: capitalize;
+      margin-top: 5rem;
+    }
+    .desc3 {
+      font-size: 2rem;
+      color: $shadow;
+      text-decoration: none;
+      margin-top: 2rem;
+    }
+  }
+}

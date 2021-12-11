@@ -1,0 +1,37 @@
+@import "_variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+.navbar {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  background: $bg;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem 0rem;
+  a {
+    text-decoration: none;
+    color: $text;
+    font-size: 30px;
+  }
+  .name {
+    text-shadow: 0 0 7px $desc, 0 0 10px $desc, 0 0 21px $desc, 0 0 42px $desc,
+      0 0 82px $hed-shadow, 0 0 92px $desc, 0 0 102px $hed-shadow,
+      0 0 151px $hed-shadow;
+  }
+  .link {
+    text-shadow: 0 0 7px $purple, 0 0 10px $purple, 0 0 21px $purple,
+      0 0 42px $purple, 0 0 82px $purple, 0 0 92px $purple, 0 0 102px $purple,
+      0 0 151px $purple;
+    color: $desc;
+  }
+  .btn {
+    background: $btn;
+    color: $text;
+    border: none;
+    border-radius: 8px;
+    padding: 0.2rem 2rem;
+    font-size: 30px;
+  }
+}
+.bold {
+  font-weight: bold;
+}
