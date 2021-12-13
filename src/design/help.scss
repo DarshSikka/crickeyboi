@@ -5,27 +5,24 @@
   background: url("/img/bg.png");
   border-left: 10px solid purple;
   margin-left: 4px;
-  h1,
-  h2 {
-    color: white;
-    text-shadow: 0 0 7px $desc, 0 0 10px $desc, 0 0 21px $desc, 0 0 42px $desc,
-      0 0 82px $hed-shadow, 0 0 92px $desc, 0 0 102px $hed-shadow,
-      0 0 151px $hed-shadow;
-    font-family: "Poppings", sans-serif;
-  }
-  h1 {
-    font-size: 48px;
-  }
-  h2 {
-    font-size: 32px;
-  }
-  p,
-  li {
-    color: $desc;
-    font-size: 20px;
-    font-family: "Poppings", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  .join {
+    background-color: $desc;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 4em;
+    color: purple;
+    height: max-content;
+    .text {
+      text-shadow: 0 0 7px $desc, 0 0 10px $desc, 0 0 21px $desc, 0 0 42px $desc,
+        0 0 82px $hed-shadow, 0 0 92px $desc, 0 0 102px $hed-shadow,
+        0 0 151px $hed-shadow;
+    }
   }
   background-repeat: no-repeat;
   background-size: 300%;
   padding: 3rem 1rem;
+  height: 100vh;
 }
