@@ -3,7 +3,7 @@
     <img :src="ball" width="60" />
     <router-link to="/" class="bold name">Crickey boi</router-link>
     <router-link to="/commands" class="link">Commands</router-link>
-    <router-link to="/help" class="link">Help</router-link>
+    <router-link to="/leaderboard" class="link">Leaderboard</router-link>
     <router-link to="/about" class="link">About</router-link>
     <button class="btn">
       <a
