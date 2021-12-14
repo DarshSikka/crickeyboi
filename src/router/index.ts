@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
 import Home from "../views/Home.vue";
 import Help from "../views/Help.vue";
+import Lb from "../views/Leaderboard.vue";
 import Commands from "../views/Commands.vue";
 const routes: Array<RouteRecordRaw> = [
   {
@@ -23,6 +24,7 @@ const routes: Array<RouteRecordRaw> = [
     component: Help,
   },
   { path: "/commands", name: "Commands", component: Commands },
+  {path: "/leaderboard", name: "leaderboard", component: Lb}
 ];
 
 const router = createRouter({
