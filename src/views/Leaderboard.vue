@@ -8,11 +8,15 @@
         <th>Username</th>
         <th>Wins</th>
         <th>highest</th>
+        <th>Half centuries</th>
+        <th>Centuries</th>
       </tr>
       <tr v-for="usr in fach" :key="usr.username">
         <td>{{ usr.username }}</td>
         <td>{{ usr.won }}</td>
         <td>{{ usr.highest }}</td>
+        <td>{{ usr.fifties }}</td>
+        <td>{{ usr.hundreds }}</td>
       </tr>
     </table>
   </main>
