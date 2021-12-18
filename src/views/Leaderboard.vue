@@ -7,7 +7,7 @@
       <tr>
         <th>Username</th>
         <th>Wins</th>
-        <th>highest</th>
+        <th>Highest</th>
         <th>Half centuries</th>
         <th>Centuries</th>
       </tr>
