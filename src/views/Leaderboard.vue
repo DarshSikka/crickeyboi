@@ -49,10 +49,10 @@ export default defineComponent({
     };
   },
   async mounted() {
-    const fac = await fetch("https://cricky-api.herokuapp.com/lb?sort=won");
+    const fac = await fetch("https://cricky-api.darshsikka.repl.co/lb?sort=won");
     this.fach = await fac.json();
     const fac2 = await fetch(
-      "https://cricky-api.herokuapp.com/lb?sort=highest"
+      "https://cricky-api.darshsikka.repl.co/lb?sort=highest"
     );
     this.fach2 = await fac2.json();
   },

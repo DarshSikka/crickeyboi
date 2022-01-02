@@ -21,7 +21,7 @@ export default {
   },
   async mounted() {
     const lb = await fetch(
-      "https://cricky-api.herokuapp.com/leaderboard-users"
+      "https://cricky-api.darshsikka.repl.co/leaderboard-users"
     );
     this.fach = await lb.json();
     this.fach = await Promise.all(
